@@ -23,7 +23,7 @@
     <div class="login-box">
     <img src="avatar.png" class="avatar">
         <h1>Login Here</h1>
-            <form>
+            <form method = "POST" action = "serve.php">
             <p>Username</p>
             <input type="text" name="username" placeholder="Enter Email">
             <p>Password</p>
